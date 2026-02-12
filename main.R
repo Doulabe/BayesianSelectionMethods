@@ -28,7 +28,7 @@ source("Real_Data_Analysis.R")                 # Functions for Mice Data Analysi
 # List of required libraries
 required_libs <- c("base", "MASS", "stats", "Matrix", "data.table", "doParallel", 
                    "mvtnorm", "BGLR", "dplyr") # BGLR needed for Mice Data
-ensure_packages(required_libs)
+Ensure_packages(required_libs)
 # ------------------------------------------------------------------------------
 # 2. DEMO EXAMPLE (Quick Start)
 # ------------------------------------------------------------------------------
