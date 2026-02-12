@@ -5,7 +5,6 @@
 library(doParallel)
 library(MASS)
 library(BGLR)      # For the mice dataset
-library(ggplot2)   # For plotting
 library(dplyr)     # For data manipulation
 
 #--- required functions

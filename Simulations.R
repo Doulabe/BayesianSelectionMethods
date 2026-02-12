@@ -28,10 +28,6 @@ seed <- 160323
 set.seed(seed)
 ##--- Generate centered X
 X <- Generate.X(n, r, m, f)
-##
-library(doParallel)
-library(MASS) 
-library(mvtnorm)
 
 #1--- Check results per method
 ## Example with  Naive Wald in scenario I
